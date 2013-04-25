@@ -1,0 +1,769 @@
+* {
+	margin:0;
+	padding:0;
+}
+html,body {
+	width:100%;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:16px;
+	color:#1d1d1d;
+}
+
+/* HEADER */
+div#header {
+	background:url("../images/header_bg.jpg") top left repeat-x;
+	width:100%;
+	height:129px;
+	overflow:hidden;
+}
+div#header_large {
+	background:url("../images/header_bg_large.jpg") top center repeat-x;
+	width:100%;
+	height:150px;
+	overflow:hidden;
+}
+div#header_large .logo {
+	margin:8px 0 0 0;
+}
+div#header_container {
+	width:1000px;
+}
+div#header_container div#logo {
+	float:left;
+	position:relative;
+	width:251px;
+	margin:0 0 0 -4px;
+}
+div#header_container div#call_today {
+	float:right;
+	width:231px;
+	margin:46px -1px 0 0;
+}
+/* END */
+
+/* Main Nav */
+div#nav_header {
+	background:url("../images/header_bg_2.jpg") top left repeat-x;
+	width:100%;
+	height:37px;
+	overflow:hidden;
+}
+div#thin_nav_header {
+	background:url("../images/header_bg_2.jpg") top left repeat-x;
+	width:100%;
+	height:10px;
+	overflow:hidden;
+}
+div#nav_header div#main_nav {
+	width:1000px;
+	text-align:left;
+}
+div#nav_header_blue {
+	background:url("../images/headerNav_bg.jpg") top left repeat-x;
+	color:#fff;
+	width:100%;
+	height:49px;
+	padding:0 0 0 0;
+	overflow:hidden;
+}
+div#nav_header_blue div#main_nav {
+	text-align:left;
+	margin:0 0 0 0;
+	width:1000px;
+	display:block;
+}
+div#nav_header_blue .nav_divider {
+	background:url("../images/nav_divider.jpg") 0 10px no-repeat;
+	float:left;
+	width:2px;
+	height:49px;
+	display:inline-block;
+}
+div#nav_header_blue a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing:.80px;
+	color:#fff;
+	display:block;
+	float:left;
+	height:35px;
+	padding:14px 24px 0 24px;
+	margin:0 0 0 0;
+}
+div#nav_header_blue a:hover {
+	background:#351604;
+}
+/* END */
+
+/* FLASH */
+div#flash_header {
+	background:#747474;
+	width:100%;
+	height:263px;
+	overflow:hidden;
+}
+/* END */
+
+/* CONTAINER */
+div#container_bg {
+	background:url("../images/body_bg.jpg") top left repeat-x;
+	width:100%;
+	height:100px;
+}
+div#container_bg div#container {
+	width:1000px;
+	text-align:left;
+}
+div#container div#left_search {
+	float:left;
+	width:277px;
+	border:1px #a6a6a6 solid;
+	border-top:none;
+	padding:0 3px 3px 3px;
+}
+div#container div#left_search_large {
+	float:left;
+	width:277px;
+	border:1px #a6a6a6 solid;
+	margin:7px 0 0 0;
+	padding:3px;
+}
+div#container div#search_content {
+	float:left;
+	width:660px;
+	overflow:hidden;
+	padding:19px 26px;
+}
+div#container div#home_content {
+	float:left;
+	width:489px;
+	padding:15px 26px;
+}
+/* Wide Layout - No Widget
+div#container div#ms_home_content {
+	float:left;
+	width:716px;
+	padding:15px 26px;
+}
+*/
+div#container div#ms_city_content {
+	float:left;
+	width:1006px;
+	padding:15px 0 0 0;
+}
+div#container div#featured_right {
+	float:right;
+	width:165px;
+	border:1px #a2a2a2 solid;
+	border-top:none;
+	padding:0 3px 3px 3px;
+}
+div#container div#featured_right div#featured {
+	padding:14px 9px;
+	background:#d1d1d1;
+}
+div#container div#content {
+	float:left;
+	padding:17px 20px;
+}
+div#container div#content_detail {
+	float:left;
+	padding:13px 0 13px 20px;
+	width:659px;
+}
+div#container div.content_detail_large_image {
+	width:639px !important;
+}
+div#container div#content_detail .back_link {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	display:block;
+	text-decoration:none;
+	color:#424e96;
+	font-size:12px;
+	margin:7px 0 0 0;
+}
+div#container div#content_detail .back_link:hover {
+	text-decoration:underline;
+}
+div.content_detail_large_image div#detail_share {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#a2a2a2;
+	border-top:1px #e2e2e2 solid;
+	border-bottom:1px #e2e2e2 solid;
+	background:#f4f4f4;
+	padding:18px 10px 14px 10px;
+	margin:25px 0 0 0;
+}
+div.content_detail_large_image div#map_container {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#1D1D1D;
+	width:402px;
+	float:left;
+}
+div.content_detail_large_image div#map_container img {
+	vertical-align:bottom;
+}
+div.content_detail_large_image div#map_container a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#424e96;
+	font-size:11px;
+	line-height:11px;
+}
+div.content_detail_large_image div#map_container a:hover {
+	text-decoration:underline;
+}
+div.content_detail_large_image div#map {
+	width:402px;
+	height:240px;
+	margin:0 0 14px 0;
+}
+
+div.content_detail_large_image div#detail_share #detail_print {
+	float:right;
+	width:70px;
+}
+div.content_detail_large_image div#detail_share #detail_print a, div.content_detail_large_image div#detail_share #detail_print a:hover {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#a2a2a2;
+	text-decoration:none;
+}
+div.content_detail_large_image div#detail_share #detail_print img {
+	vertical-align:middle;
+}
+div#container div#right_quote {
+	float:right;
+	width:298px;
+	border:1px #a7a7a7 solid;
+	padding:3px;
+	margin:20px 8px 0 0;
+}
+div#container div#right_quote div#quote {
+	background:#d1d1d1;
+	padding:25px;
+}
+div#container div#right_quote div#quote div#site {
+	padding-left:10px;
+}
+/* NEIGHBORHOOD */
+div#container div#sub_nav {
+	float:left;
+	width:169px;
+	border:1px #a6a6a6 solid;
+	margin:10px 0 0 8px;
+	padding:3px;
+}
+div#container div#sub_nav div#nav_content {
+	background:#5a5858;
+	padding:17px 10px 17px 36px;
+}
+div#container div#middle_content {
+	float:left;
+	width:460px;
+	overflow:hidden;
+	padding:17px 20px;
+}
+div#container div#middle_content_charity {
+	float:left;
+	width:630px;
+	overflow:hidden;
+	padding:17px 20px;
+}
+div#container div#right_map {
+	float:right;
+	width:307px;
+	overflow:hidden;
+	padding:17px 0 0 0;
+}
+div#container div#thirds_content {
+	float:left;
+	width:787px;
+	padding:17px 0 17px 20px;
+}
+/* END */
+
+/* LEFT SEARCH */
+div#container div.search_lite {
+	background:#5a5858;
+	padding:10px 24px;
+}
+div#container div.search_lite_fix {
+	background:#5a5858;
+}
+div#container div.search_dark {
+	background:url("../images/title_fade.jpg") top left repeat-x;
+	height:20px;
+	padding:5px 24px 0 24px;
+}
+div#container table#neighborhoods td {
+	padding:0;
+}
+div#container div.price_div {
+	display:none;
+	float:left;
+	margin:0px 0 0 5px;
+}
+div#container div.price_div_block {
+	display:block;
+	float:left;
+	margin:0px 0 0 5px;
+}
+div#container div.price_show_div {
+	display:block;
+	float:left;
+	margin:0px 0 0 5px;
+}
+td.budget div.price_div, td.budget div.price_div_block, td.budget div.price_show_div {
+	margin:0 !important;
+}
+/* END */
+
+/* SEARCH RENTALS */
+div#featured_border {
+	width:100%;
+	border:1px #a2a2a2 solid;
+	padding:3px;
+}
+div#featured_border div#featured {
+	background:#CCC;
+	padding:12px;
+}
+div#featured div.image {
+	height:84px !important;
+	width:144px;
+	overflow:hidden !important;
+	border:1px #40414a solid;
+	margin:0 0 3px 0;
+	cursor:pointer;
+}
+div#featured_right div.image {
+	margin:10px 0 4px 0;
+}
+div#featured img {
+	width:144px;
+}
+div#featured div.arrow {
+	margin:-69px 0 0 0;
+	height:69px;
+	cursor:pointer;
+}
+div#featured div.arrow img {
+	width:auto;
+	cursor:pointer;
+}
+/* END */
+
+/* DETAILS PAGE */
+div#container div#right_contact {
+	float:right;
+	width:298px;
+	border:1px #a6a6a6 solid;
+	padding:3px;
+	margin:100px 8px 0 0;
+}
+div#container div#contact {
+	background:#565050;
+	padding:18px 20px 0 20px;
+}
+div#container div#contact table td {
+	padding-right:3px;
+}
+table#detail_top {
+	margin-top:15px;
+}
+div#detail_photos {
+	margin:20px 0 0 0;
+}
+div#detail_photos div#large_img {
+	float:left;
+	width:427px;
+}
+div#detail_photos div#small_img {
+	float:left;
+	width:230px;
+	overflow:hidden;
+}
+div.content_detail_large_image div#small_img {
+	width:210px !important;
+}
+div#large_detail_photos {
+	margin:20px 0 0 0;
+}
+div#large_detail_photos div#large_img {
+	float:left;
+	width:427px;
+}
+div#large_detail_photos div#small_img {
+	float:left;
+	width:230px;
+	overflow:hidden;
+}
+div#detail_items {
+	float:left;
+}
+div.detail_items_large {
+	width:660px;
+}
+div.detail_items_large div.detail_item_col {
+	width:200px;
+	float:left;
+	margin:0 20px 0 0;
+}
+div.detail_items_small {
+	width:235px;
+}
+div#detail_items div.detail_item {
+	width:190px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float:left;
+	margin:0 10px 10px 0;
+}
+div#detail_items div.detail_item a {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#424e96;
+	font-size:11px;
+}
+div#detail_items div.detail_item a:hover {
+	text-decoration:underline;
+}
+span.detail_item_label {
+    display:inline-block;
+    font-size:11px;
+    width:100px;
+    font-weight:bold;
+}
+
+
+
+div.detail_items_small span.detail_item_label {
+    display:block;
+    float:left;
+    clear:both;
+}
+div.detail_items_small span.detail_item_info {
+    display:block;
+    float:left;
+    width:90px;
+}
+
+
+div.detail_items_large span.detail_item_label {
+	width:80px;
+}
+div#walkscore {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin:14px 0 0 0;
+	color:#b14b01;
+}
+div#walkscore img {
+	vertical-align:text-top;
+}
+div#schedule_showing {
+	margin:14px 0 0 0;
+}
+div.columns {
+	width:210px;
+	float:left;
+	padding:30px 5px 30px 0;
+	font-size:12px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+div.column_one {
+	width:210px;
+	float:left;
+	padding:30px 5px 30px 40px;
+}
+div.content_detail_large_image div.columns {
+	width:200px !important;
+	padding:0 10px 30px 0 !important;
+}
+div#agent_detail {
+	margin-top:23px;
+}
+/* END */
+
+/* RENT MANAGE CONDO */
+div#container div#content_condo {
+	float:left;
+	padding:17px 20px;
+	width:639px;
+}
+div#container div#right_contact_condo {
+	float:right;
+	width:298px;
+	border:1px #a6a6a6 solid;
+	padding:3px;
+	margin:20px 8px 0 0;
+}
+div#container div#right_contact_condo_hood {
+	float:right;
+	width:285px;
+	border:1px #a6a6a6 solid;
+	padding:3px;
+	margin:20px 8px 20px 0;
+}
+/* END */
+
+/* FOOTER */
+div#footer {
+	width:1006px;
+	margin-top:20px;
+	padding:13px 0 20px 0;
+}
+div#footer img {
+	padding:0 10px;
+}
+div#footer div#footer_icon {
+	margin:16px 0 0 0;
+}
+div#footer div#footer_icon img {
+	vertical-align:top;
+}
+#bottom_footer {
+	margin:10px 0;
+	color:#999;
+}
+div#footer #bottom_footer a {
+	color:#999;
+}
+#siteMapHtml ul{
+	margin-left:30px;
+}
+.featuredHoodSeperator{
+	height: 1px;
+	background: #e1e1e3;
+	margin: 10px 0;
+}
+.featuredHoodProperty{
+	float:left;
+	width:130px;
+	height: 250px;
+	margin-right: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: left;
+}
+.buildingDonation{
+	float:left;
+	width:130px;
+	height: 180px;
+	margin-right: 20px;
+	overflow:hidden;
+	font-size: 12px;
+	line-height: 1.5em;
+	text-align: left;
+}
+.featuredHoodProperty strong{
+	display:block;
+}
+.buildingDonation strong{
+	display:block;
+}
+.featuredHoodProperty img{
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+	display: block;
+	margin-bottom: 5px;
+}
+.buildingDonation img{
+	padding: 5px;
+	border: 1px solid #aaaaaa;
+	display: block;
+	margin-bottom: 5px;
+}
+.featuredHoodProperty a{
+	color: #000;
+	text-decoration: none;
+}
+.buildingDonation a{
+	color: #000;
+	text-decoration: none;
+}
+.featuredHoodProperty a:active, .featuredHoodProperty a:hover{
+	text-decoration: underline;
+}
+.buildingDonation a:active, .buildingDonation a:hover{
+	text-decoration: underline;
+}
+.seeAllHoodBtn{
+	margin-top: 25px;
+	text-align: center;
+}
+.seeAllHoodBtn a{
+	background: #361702;
+	color: #fff;
+	font-family: Tahoma,Geneva,sans-serif;
+	text-decoration: none;
+	padding: 5px 8px;
+	border: 3px solid #938f8e;
+}
+.seeAllHoodBtn a:active, .seeAllHoodBtn a:hover{
+	background: #5A5858;
+}
+#player_a_start, .ppstart{
+	/*display: block !important;*/
+}
+#player{
+	margin: 0px auto 15px auto;
+}
+
+/*
+  +------------------------------------------------------------------+
+  | Green-Beast.com                                                  |
+  | MIX: Donations Gauge                                             |
+  | Cascading Style Sheet                                            |
+  | Copyright May 2006                                               |
+  | Use with attribution by visible link please!                     |
+  | Attribute to: <a href="http://green-beast.com/">Mike Cherim</a>  |
+  +------------------------------------------------------------------+
+*/
+
+/* this exists for one reason: the gauge and nogauge message need a home.
+   you can stack this box or float it or what have you. all of the other
+   elements are relative to the div so the div is all yours */
+div#cdg-shell {
+  background-color : #d4d3d3;
+  margin : auto;
+  width : 180px;
+  height : auto;
+  display : block;
+  border : 1px solid #666;
+  padding: 10px;
+
+}
+
+/* now we style the inner box when no funds are needed. grab the image
+   from: http://mikecherim.com/experiments/images/cdg_no_tmom.gif */
+div#cdg-noshell {
+  background : #ffffdd url(images/cdg_no_tmom.gif) no-repeat bottom right;
+  width : 100%;
+  height : 310px;
+  display : block;
+}
+
+/* This styles the heading and the positions left both it second line (goal amount) */
+span#cdg_h2, p#cdg_goal {
+  color : #262626;
+  font-size : 15px;
+  padding : 0;
+  /* margin-left : 5px; */
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+/* but the styles for the second line need some tweaking */
+span#cdg_goal {
+  color : #351504;
+  font-size : 15px;
+  font-weight : bold;
+  padding-bottom : 2px;
+  font-family:Georgia,"Times New Roman",Times,serif;
+}
+p#cdg_goal span{
+  color : #341500;
+}
+
+/* this holds the thermometer. The heigh of this box is critical to the functionality
+   I know, the crosshair is dumb, so shoot me. I like it :p
+   Please note: The thermometer body is an embedded image. If you change background
+   colors, you'll need to change that image. The opaque portions must stay that way.
+   Grab the image from: http://mikecherim.com/experiments/images/cdg_tmom.gif */
+div#cdg {
+  margin : 15px 0 15px 0;
+  width : 165px;
+  height : 300px;
+  display : block;
+  position : relative;
+  font-size : 0.8em;
+  margin-right: 10px;
+}
+
+/* this is the marker and we stick it to the bottom. In-line css margin-bottom is
+   adjusted by the script to move the marker... like magic. The background makes
+   it cover up the Goal amount line. Using absolute positioning for good not evil */
+p#cdg_p {
+  position : absolute;
+  background-color : #d4d3d3;
+  bottom : 0;
+	left: 40px;
+  color : #333;
+  z-index : 5;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  width: 55px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+
+/* this is so non-visual users will have the data presented to them in a logical
+   way not needed by those with the imagery */
+p#cdg_p span.blind {
+  position : absolute;
+  margin-top : -9000px;
+  margin-left : -9000px;
+}
+
+/* ah, the bold, red right-arrow (&rarr;)
+   FYI: The arrow isn't supported by browser < or = to IE 5.5 */
+p#cdg_p span.cdg_arw {
+  color : #585858;
+  font-weight : bold;
+}
+
+/* the mercury... I chose a slightly deeper red. it moves via script
+   as well like the marker, using margin-bottom */
+div#cdg_m {
+  position : absolute;
+  bottom : 0;
+  right : 0;
+  display : block;
+  width : 55px;
+  background-color : #585858;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  font-weight: bold;
+  padding-top:8px;
+}
+
+/* I use this to position the image in the lower right to control mercury view */
+div#cdg img {
+  position : absolute;
+  bottom : 0;
+  right : 0;
+  display : block;
+  width : 60px;
+  height : 300px;
+  border: 0px !important;
+}
+
+/* this is the no fundraiser text */
+p#cdg_no {
+  font-size : 0.8em;
+  font-weight : bold;
+  margin : 20px 15px;
+  line-height : 30px;
+}
+
+/* this is the no fundraiser link style (Contact Us) */
+p#cdg_no a {
+  color : #669900;
+}
+
+/* and it hover and focus states */
+p#cdg_no a:hover, p#cdg_no a:focus, p#cdg_no a:active {
+  text-decoration : none;
+  color : #000;
+}
+.featuredHoodProperty img{
+	width: 103px;
+	height: 68px;
+}
+video{
+	cursor: pointer !important;
+	background: #777777 !important;
+}
