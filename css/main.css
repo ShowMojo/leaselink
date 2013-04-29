@@ -16,7 +16,7 @@ header {
 	overflow:hidden;
 }
 #header_large {
-	background:url("../images/header_bg_large.jpg") top center repeat-x;
+	background:url("https://raw.github.com/ShowMojo/leaselink/master/images/header_bg_large.jpg") top center repeat-x;
 	width:100%;
 	height:150px;
 	overflow:hidden;
@@ -789,7 +789,7 @@ color: #fff;
 position: relative;
 padding: 8px 16px 8px 16px;
 height: 36px;
-text-decoration: none;
+text-decoration: none;	
 }
 
 div#nav_header div#main_nav {
