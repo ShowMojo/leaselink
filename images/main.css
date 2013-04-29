@@ -10,26 +10,25 @@ html,body {
 }
 
 /* HEADER */
-header {
-	background:url("https://raw.github.com/ShowMojo/leaselink/images/header_bg.jpg") top left repeat-x;
+div#header {
+	background:url("../images/header_bg.jpg") top left repeat-x;
 	width:100%;
+	height:129px;
 	overflow:hidden;
 }
-#header_large {
+div#header_large {
 	background:url("../images/header_bg_large.jpg") top center repeat-x;
 	width:100%;
 	height:150px;
 	overflow:hidden;
 }
-#header_large .logo {
+div#header_large .logo {
 	margin:8px 0 0 0;
 }
-#header_container {
-	max-width:1000px;
-	margin: 0 auto;
-	height: 129px;
+div#header_container {
+	width:1000px;
 }
-#header_container div#logo {
+div#header_container div#logo {
 	float:left;
 	position:relative;
 	width:251px;
@@ -44,19 +43,19 @@ div#header_container div#call_today {
 
 /* Main Nav */
 div#nav_header {
-	background:url("https://raw.github.com/ShowMojo/leaselink/images/header_bg_2.jpg") top left repeat-x;
+	background:url("../images/header_bg_2.jpg") top left repeat-x;
 	width:100%;
 	height:37px;
 	overflow:hidden;
 }
 div#thin_nav_header {
-	background:url("https://raw.github.com/ShowMojo/leaselink/images/header_bg_2.jpg") top left repeat-x;
+	background:url("../images/header_bg_2.jpg") top left repeat-x;
 	width:100%;
 	height:10px;
 	overflow:hidden;
 }
 div#nav_header div#main_nav {
-	max-width:1000px;
+	width:1000px;
 	text-align:left;
 }
 div#nav_header_blue {
@@ -70,7 +69,7 @@ div#nav_header_blue {
 div#nav_header_blue div#main_nav {
 	text-align:left;
 	margin:0 0 0 0;
-	max-width:1000px;
+	width:1000px;
 	display:block;
 }
 div#nav_header_blue .nav_divider {
@@ -106,11 +105,12 @@ div#flash_header {
 
 /* CONTAINER */
 #content {
-	max-width:1000px;
-	margin: 0 auto;
-	padding: 20px 0 20px 0
+	background:url("../images/body_bg.jpg") top left repeat-x;
+	width:100%;
+	height:100px;
 }
 #content {
+	width:1000px;
 	text-align:left;
 }
 div#container div#left_search {
@@ -129,13 +129,13 @@ div#container div#left_search_large {
 }
 div#container div#search_content {
 	float:left;
-	max-width:660px;
+	width:660px;
 	overflow:hidden;
 	padding:19px 26px;
 }
 div#container div#home_content {
 	float:left;
-	max-width:489px;
+	width:489px;
 	padding:15px 26px;
 }
 /* Wide Layout - No Widget
@@ -147,7 +147,7 @@ div#container div#ms_home_content {
 */
 div#container div#ms_city_content {
 	float:left;
-	max-width:1006px;
+	width:1006px;
 	padding:15px 0 0 0;
 }
 div#container div#featured_right {
@@ -168,10 +168,10 @@ div#container div#content {
 div#container div#content_detail {
 	float:left;
 	padding:13px 0 13px 20px;
-	max-width:659px;
+	width:659px;
 }
 div#container div.content_detail_large_image {
-	max-width:639px !important;
+	width:639px !important;
 }
 div#container div#content_detail .back_link {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -197,7 +197,7 @@ div.content_detail_large_image div#map_container {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size:11px;
 	color:#1D1D1D;
-	max-width:402px;
+	width:402px;
 	float:left;
 }
 div.content_detail_large_image div#map_container img {
@@ -214,7 +214,7 @@ div.content_detail_large_image div#map_container a:hover {
 	text-decoration:underline;
 }
 div.content_detail_large_image div#map {
-	max-width:402px;
+	width:402px;
 	height:240px;
 	margin:0 0 14px 0;
 }
@@ -259,25 +259,25 @@ div#container div#sub_nav div#nav_content {
 }
 div#container div#middle_content {
 	float:left;
-	max-width:460px;
+	width:460px;
 	overflow:hidden;
 	padding:17px 20px;
 }
 div#container div#middle_content_charity {
 	float:left;
-	max-width:630px;
+	width:630px;
 	overflow:hidden;
 	padding:17px 20px;
 }
 div#container div#right_map {
 	float:right;
-	max-width:307px;
+	width:307px;
 	overflow:hidden;
 	padding:17px 0 0 0;
 }
 div#container div#thirds_content {
 	float:left;
-	max-width:787px;
+	width:787px;
 	padding:17px 0 17px 20px;
 }
 /* END */
@@ -376,7 +376,7 @@ div#detail_photos {
 }
 div#detail_photos div#large_img {
 	float:left;
-	max-width:427px;
+	width:427px;
 }
 div#detail_photos div#small_img {
 	float:left;
@@ -391,7 +391,7 @@ div#large_detail_photos {
 }
 div#large_detail_photos div#large_img {
 	float:left;
-	max-width:427px;
+	width:427px;
 }
 div#large_detail_photos div#small_img {
 	float:left;
@@ -402,7 +402,7 @@ div#detail_items {
 	float:left;
 }
 div.detail_items_large {
-	max-width:660px;
+	width:660px;
 }
 div.detail_items_large div.detail_item_col {
 	width:200px;
@@ -489,7 +489,7 @@ div#agent_detail {
 div#container div#content_condo {
 	float:left;
 	padding:17px 20px;
-	max-width:639px;
+	width:639px;
 }
 div#container div#right_contact_condo {
 	float:right;
@@ -508,27 +508,11 @@ div#container div#right_contact_condo_hood {
 /* END */
 
 /* FOOTER */
-#footer {
-max-width: 1006px;
-margin-top: 20px;
-padding: 13px 0 20px 0;
-margin: 0 auto;
-font-family: Tahoma, Geneva, sans-serif;
-font-size: 10px;
-border-top: 1px #d3d4d6 solid;
+div#footer {
+	width:1006px;
+	margin-top:20px;
+	padding:13px 0 20px 0;
 }
-
-footer {
-padding-top: 20px;
-}
-footer a {
-color: #3a3637;
-text-decoration: none;
-}
-footer a:hover, footer a.selected {
-text-decoration: underline;
-}
-
 div#footer img {
 	padding:0 10px;
 }
@@ -772,64 +756,4 @@ p#cdg_no a:hover, p#cdg_no a:focus, p#cdg_no a:active {
 video{
 	cursor: pointer !important;
 	background: #777777 !important;
-}
-
-#mainContainer {
-max-width: none;
-height: auto;
-margin: auto;
-}
-
-header {
-padding: 0
-}
-
-div#main_nav a {
-color: #fff;
-position: relative;
-padding: 8px 16px 8px 16px;
-height: 36px;
-text-decoration: none;
-}
-
-div#nav_header div#main_nav {
-font-size: 16px;
-color: #fff;
-padding-top: 11px;
-margin: 0 auto
-}
-
-div#home_content {
-font-size: 13px;
-color: #1d1d1d;
-font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-line-height: 19px;
-}
-
-#container_bg {
-background: url("https://raw.github.com/ShowMojo/leaselink/images/body_bg.jpg") top left repeat-x;
-width: 100%;
-margin: 0;
-width: auto;
-}
-
-hr.gray {
-border: 1px #d3d4d6 solid;
-margin: 33px 0;
-}
-
-div#site {
-font-size: 11px;
-color: #434550;
-}
-
-#content2{
-max-width: 1000px;
-margin: 0 auto;
-padding: 20px 0 0 0;
-}
-
-#sidebar {
-width: 300px;
-float: right;
 }
