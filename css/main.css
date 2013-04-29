@@ -634,7 +634,7 @@ div#footer #bottom_footer a {
   | Cascading Style Sheet                                            |
   | Copyright May 2006                                               |
   | Use with attribution by visible link please!                     |
-  | Attribute to: <a href="http://green-beast.com/">Mike Cherim</a>  |
+  | Attribute to: http://green-beast.com/ Mike Cherim                |
   +------------------------------------------------------------------+
 */
 
@@ -652,8 +652,6 @@ div#cdg-shell {
 
 }
 
-/* now we style the inner box when no funds are needed. grab the image
-   from: http://mikecherim.com/experiments/images/cdg_no_tmom.gif */
 div#cdg-noshell {
   background : #ffffdd url(images/cdg_no_tmom.gif) no-repeat bottom right;
   width : 100%;
@@ -694,7 +692,7 @@ p#cdg_p {
   position : absolute;
   background-color : #d4d3d3;
   bottom : 0;
-	left: 40px;
+  left: 40px;
   color : #333;
   z-index : 5;
   font-size: 15px;
@@ -704,23 +702,17 @@ p#cdg_p {
   font-family: Georgia,"Times New Roman",Times,serif;
 }
 
-/* this is so non-visual users will have the data presented to them in a logical
-   way not needed by those with the imagery */
 p#cdg_p span.blind {
   position : absolute;
   margin-top : -9000px;
   margin-left : -9000px;
 }
 
-/* ah, the bold, red right-arrow (&rarr;)
-   FYI: The arrow isn't supported by browser < or = to IE 5.5 */
 p#cdg_p span.cdg_arw {
   color : #585858;
   font-weight : bold;
 }
 
-/* the mercury... I chose a slightly deeper red. it moves via script
-   as well like the marker, using margin-bottom */
 div#cdg_m {
   position : absolute;
   bottom : 0;
