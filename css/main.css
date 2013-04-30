@@ -627,6 +627,10 @@ div#footer #bottom_footer a {
 	margin: 0px auto 15px auto;
 }
 
+.options.small {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
 /*
   +------------------------------------------------------------------+
   | Green-Beast.com                                                  |
